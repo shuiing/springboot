@@ -13,5 +13,8 @@
     page：重写的分页工具。也可以用mybatis自带的
 5.config
     intercept：拦截器
+6.exception
+  exception_map 采用map存储异常并抛出
+  exception_enum 采用enum存储异常并抛出
 
 
