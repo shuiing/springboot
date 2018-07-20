@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 
 @Service(version = "2.0.1")
+//或者用@Service(protocol={"dubbo"})
 public class ServiceTestImp implements ServiceTest {
     @Autowired
     UserMapper userMapper;

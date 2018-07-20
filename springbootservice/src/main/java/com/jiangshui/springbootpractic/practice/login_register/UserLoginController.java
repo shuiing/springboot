@@ -7,6 +7,6 @@ package com.jiangshui.springbootpractic.practice.login_register;
 public class UserLoginController {
 
     /**
-     *
+     * 判读用户是否存在
      */
 }
