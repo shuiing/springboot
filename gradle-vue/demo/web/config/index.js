@@ -26,7 +26,7 @@ module.exports = {
     assetsSubDirectory: 'assets',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api/**': 'http://localhost:8080'//代理前台/api开头的请求，代理到8080端口，spring boot的访问端口
+      '/api/**': 'http://localhost:8088'//代理前台/api开头的请求，代理到8080端口，spring boot的访问端口
     },
 
 
