@@ -1,6 +1,7 @@
 package com.shui.one.controller;
 
 
+import com.shui.one.common.Result;
 import com.shui.one.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,7 +25,7 @@ public class UserController {
     UserService userService;
 
     @GetMapping("/{id}")
-    public Object test(@PathVariable("id") Long id) {
-        return userService.getById(id);
+    public Result test(@PathVariable("id") Long id) {
+        return Result.success(userService.getById(id));
     }
 }
