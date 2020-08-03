@@ -2,6 +2,7 @@ package com.shui.one.mapper;
 
 import com.shui.one.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author 作者
  * @since 2020-08-03
  */
+@Repository
 public interface UserMapper extends BaseMapper<User> {
 
 }
