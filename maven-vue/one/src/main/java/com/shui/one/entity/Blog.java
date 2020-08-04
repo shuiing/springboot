@@ -2,6 +2,8 @@ package com.shui.one.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
+
+import java.time.LocalDateTime;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
@@ -39,7 +41,7 @@ public class Blog implements Serializable {
 
     private String content;
 
-    private Date created;
+    private LocalDateTime created;
 
     private Integer status;
 
