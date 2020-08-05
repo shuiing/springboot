@@ -22,3 +22,19 @@
 * /web/config/index.js build中修改了打包位置，dev中设置了访问接口为3000，
 并且设置可以跳转到8080(server服务中)
 * 其他设置不变，比如spirngboot的配置文件依旧为application
+
+**生成模板**
+
+```
+# vue init webpack web
+Project name --> web
+Project description --> A Vue.js project
+Author --> Hello
+Vue build --> 回车
+Install vue-router ? --> y
+Use ESlint to lint your code? --> n
+Setup unit tests with Karma + Mocha? --> n
+Setup e2e tests with Nightwatch? --> n
+
+此时把web(vue)目录下所有文件拷贝到子项目中
+```
